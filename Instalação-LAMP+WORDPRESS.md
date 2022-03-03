@@ -67,7 +67,7 @@ ______________________________________________________
 > phpinfo();
 > ?>
 
-#Abra um navegador e vá para o endereço localhost/info.php
+//Abra um navegador e vá para o endereço localhost/info.php
 #Caso apareça descrição sobre o php a instalação foi bem sucedida
 #Em caso de dúvida consulte a documentação oficial em https://www.php.net/manual/en/install.unix.apache2.php
 ___________________________________________________________
