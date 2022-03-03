@@ -100,7 +100,7 @@ ______________________________________________________________
 #Acessando a pasta wordpress e criando o arquivo .htaccess
 
 > cd worpress/
-> > .htaccess
+> '>' .htaccess
 
 #Criando o wp-config.php
 
