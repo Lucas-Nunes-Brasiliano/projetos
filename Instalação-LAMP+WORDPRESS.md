@@ -62,13 +62,12 @@ ______________________________________________________
 > nano /var/www/html/info.php
 
 #Digite no arquivo o código abaixo, feche-o e salve
-
 > <?php 
 > phpinfo();
 > ?>
 
-//Abra um navegador e vá para o endereço localhost/info.php
-#Caso apareça descrição sobre o php a instalação foi bem sucedida
+#Abra um navegador e vá para o endereço localhost/info.php
+#Caso apareça informação sobre o php a instalação foi bem sucedida
 #Em caso de dúvida consulte a documentação oficial em https://www.php.net/manual/en/install.unix.apache2.php
 ___________________________________________________________
 #No terminal altere a configuração do arquivo abaixo
