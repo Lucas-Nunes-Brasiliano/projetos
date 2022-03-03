@@ -1,4 +1,4 @@
-##Tutorial de da instalação em ambiente Linux
+## Tutorial de da instalação em ambiente Linux
 #Considere se logar com uma conta root, além de dar permissão adquada evitar a repetição do comando sudo
 
 sudo su
@@ -24,7 +24,7 @@ mysql_secure_installation
 
 password do mysql_secure: use uma senha forte aqui letras, números, caracteres
 
-#Criando um banco de dados
+# Criando um banco de dados
 
 mysql -u root -p
 
@@ -41,7 +41,7 @@ FLUSH PRIVILEGES;
 
 EXIT;
 ______________________________________________________
-##Instalando o Apache
+## Instalando o Apache
 
 apt install apache2
 
@@ -50,7 +50,7 @@ apt install apache2
 systemctl start apache2
 systemctl status apache2
 ______________________________________________________
-##Instalando o PHP
+## Instalando o PHP
 
 apt install php libapache2-mod-php php-mysql
 
@@ -75,8 +75,8 @@ ___________________________________________________________
 
 nano /etc/apache2/apache2.conf
 
-# Em Directy /var/wwww> 
-# alterar AllowOverride None para AllowOverride All
+#Em Directy /var/wwww> 
+#Alterar AllowOverride None para AllowOverride All
 
 #Digite o comando
 
@@ -97,7 +97,7 @@ cd /tmp
 wget -c http://wordpress.org/latest.tar.gz
 tar -xzvf latest.tar.gz
 
-#acessando a pasta wordpress e criando o arquivo .htaccess
+#Acessando a pasta wordpress e criando o arquivo .htaccess
 
 cd worpress/
 > .htaccess
