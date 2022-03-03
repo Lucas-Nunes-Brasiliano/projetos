@@ -63,9 +63,9 @@ ______________________________________________________
 
 #Digite no arquivo o código abaixo, feche-o e salve
 
-<?php 
-phpinfo();
-?>
+> <?php 
+> phpinfo();
+> ?>
 
 #Abra um navegador e vá para o endereço localhost/info.php
 #Caso apareça descrição sobre o php a instalação foi bem sucedida
@@ -100,7 +100,7 @@ ______________________________________________________________
 #Acessando a pasta wordpress e criando o arquivo .htaccess
 
 > cd worpress/
-> '>' .htaccess
+> cat .htaccess
 
 #Criando o wp-config.php
 
