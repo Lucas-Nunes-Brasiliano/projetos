@@ -62,9 +62,9 @@ ______________________________________________________
 > nano /var/www/html/info.php
 
 #Digite no arquivo o código abaixo, feche-o e salve
-> <?php 
-> phpinfo();
-> ?>
+ <?php 
+ phpinfo();
+ ?>
 
 #Abra um navegador e vá para o endereço localhost/info.php
 #Caso apareça informação sobre o php a instalação foi bem sucedida
@@ -137,3 +137,4 @@ define( 'FS_METHOD', 'direct' );
 
 #Em seguida feche e salve o arquivo
 #Abra seu navegador e digite localhost/wp-admin/ e finalize a instalação do wordpress 
+
