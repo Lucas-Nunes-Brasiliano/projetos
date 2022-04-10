@@ -33,9 +33,8 @@ A senha digitada anteriormente para a conta raiz do banco será necessária, aba
 
     GRANT ALL PRIVILEGES ON nome da tabela.* TO 'nome do usuário'@'localhost' IDENTIFIED BY 'senha do usuário';
 
-#Use uma senha forte aqui letras, números, caracteres
-
-#definirá as permissões necessárias para o usuário raiz
+Use uma senha forte aqui letras, números, caracteres
+definirá as permissões necessárias para o usuário raiz
 
 ```
 FLUSH PRIVILEGES;
